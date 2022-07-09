@@ -1,0 +1,27 @@
+@media (max-width: 880px){
+
+    .containernav a:not(:first-child){
+        display: none;
+    }
+
+     .nav .icon {
+        display: block;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .containernav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    header .container p {
+        width: 100%;
+    }
+
+}   
